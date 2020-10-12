@@ -1,6 +1,9 @@
 # Notepad-App
 An android app for taking notes developed in Android Studio in Java. 
 View the android studio documentation [here](https://developer.android.com/studio/intro). 
+The android app has two main activities a main home page and a note editing activity. The functionality for these two activities can be seen in MainActiviy.java, and NodeEditActivity [here](https://github.com/EllenWhelan/Notepad-App/blob/main/NotesApp/app/src/main/java/com/example/notesapp). 
+The XML documents determining the layout of the two activity pages can be seen [here](https://github.com/EllenWhelan/Notepad-App/blob/main/NotesApp/app/src/main/res/layout).
+
 
 A user can add and delete notes using a simple inteface. Shared preferences is used to ensure the notes persist in storage after closing the app. 
 The interface can be seen below showing the functionality of the app. 
