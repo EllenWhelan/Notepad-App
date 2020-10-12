@@ -81,7 +81,6 @@ public class MainActivity extends AppCompatActivity {
     {
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.aptly, menu);
-
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -90,14 +89,14 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item)
     {
         super.onOptionsItemSelected(item);
-
         if(item.getItemId() == R.id.add_note)
         {
             Intent intent = new Intent(getApplicationContext(), NodeEditorActivity.class);
             startActivity(intent);
             return true;
         }
-
         return false;
     }
+
+
 }

@@ -8,7 +8,10 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.View;
 import android.widget.EditText;
+
+import org.w3c.dom.Node;
 
 import java.util.HashSet;
 
@@ -37,11 +40,7 @@ public class NodeEditorActivity extends AppCompatActivity {
         editText.addTextChangedListener(new TextWatcher()
         {
             @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after)
-            {
-
-            }
-
+            public void beforeTextChanged(CharSequence s, int start, int count, int after){}
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count)
             {
@@ -52,12 +51,9 @@ public class NodeEditorActivity extends AppCompatActivity {
                 HashSet<String> set = new HashSet<>(MainActivity.notes);
                 sharedPreferences.edit().putStringSet("notes", set).apply();
             }
-
             @Override
-            public void afterTextChanged(Editable s)
-            {
-
-            }
+            public void afterTextChanged(Editable s){}
         });
     }
+
 }
