@@ -7,10 +7,10 @@ The interface can be seen below showing the functionality of the app.
 
 
 A user selects the menu (the three dots)to add a note or selects a note to edit it. 
-![Image of menu](https://github.com/EllenWhelan/Notepad-App/images/menu.jpg) 
+![Image of menu](https://github.com/EllenWhelan/Notepad-App/blob/main/images/menu.jpg) 
 
 They are then taken to the editing page for the selected note or new note.
-![Image of edit page](https://github.com/EllenWhelan/Notepad-App/images/edit.jpg)
+![Image of edit page](https://github.com/EllenWhelan/Notepad-App/blob/main/images/edit.jpg)
 
 If they want to delete a note they can long press the note from the main page. 
-![Image of delete function](https://github.com/EllenWhelan/Notepad-App/images/delete.jpg)
+![Image of delete function](https://github.com/EllenWhelan/Notepad-App/blob/main/images/delete.jpg)
