@@ -95,6 +95,10 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             return true;
         }
+        else if(item.getItemId()==R.id.delete_all){
+            notes.clear();
+            arrayAdapter.notifyDataSetChanged();
+        }
         return false;
     }
 
